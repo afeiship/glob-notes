@@ -1,0 +1,11 @@
+{
+  "name": "glob-notes",
+  "version": "1.0.0",
+  "description": "About glob, i want to learn",
+  "homepage": "https://github.com/afeiship/glob-notes",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT"
+}
