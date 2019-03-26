@@ -10,6 +10,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "docs:deploy": "./deploy.sh",
     "start": "node src/app.js"
   },
   "license": "MIT",
