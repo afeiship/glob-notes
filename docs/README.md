@@ -6,5 +6,6 @@ Basic install steps.
 :::
 
 ## Javascript
-  - [Home](/) <!-- Sends the user to the root README.md -->
-  - [foo](/javascript/) <!-- Sends the user to index.html of directory foo -->
+  - [Home](/)
+  - [get-started](/javascript/001-get-started.md)
+  - [globby](/javascript/002-globby.md)
