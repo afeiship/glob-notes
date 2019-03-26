@@ -1,12 +1,13 @@
 # NOTES
 > GET start!!
 
-## logo
-![GLOB LOGOg](https://raw.githubusercontent.com/isaacs/node-glob/master/oh-my-glob.gif)
-
 ::: tip
 Basic install steps.
 :::
+
+## logo
+![GLOB LOGOg](https://raw.githubusercontent.com/isaacs/node-glob/master/oh-my-glob.gif)
+
 
 ## Javascript
   - [Home](/)
