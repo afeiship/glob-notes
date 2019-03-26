@@ -7,5 +7,15 @@
     "name": "afei",
     "email": "1290657123@qq.com"
   },
-  "license": "MIT"
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  },
+  "dependencies": {
+    "glob": "^7.1.3"
+  }
 }

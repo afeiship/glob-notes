@@ -1,2 +1,2 @@
 # glob-notes
-> About glob, i want to learn
+> About glob, i want to learn.
