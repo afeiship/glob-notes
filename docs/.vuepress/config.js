@@ -13,10 +13,12 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    sidebar: {
-      title: 'Get started',
-      collapsable: false,
-      children: ['/javascript/001-get-started.md']
-    }
+    sidebar: [
+      {
+        title: 'Get started',
+        collapsable: false,
+        children: ['/javascript/001-get-started.md']
+      }
+    ]
   }
 };
