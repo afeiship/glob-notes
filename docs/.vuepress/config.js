@@ -17,7 +17,11 @@ module.exports = {
       {
         title: 'Get started',
         collapsable: false,
-        children: ['/javascript/001-get-started.md', '/javascript/002-globby.md']
+        children: [
+          '/javascript/001-get-started.md',
+          '/javascript/002-globby.md',
+          '/javascript/003-multimatch.md'
+        ]
       }
     ]
   }
