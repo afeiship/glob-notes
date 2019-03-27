@@ -14,3 +14,6 @@ Basic install steps.
   - [get-started](/javascript/001-get-started.md)
   - [globby](/javascript/002-globby.md)
   - [multimatch](/javascript/003-multimatch.md)
+
+## Ruby
+  - [dir](/ruby/001-dir.md)

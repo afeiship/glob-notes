@@ -15,13 +15,18 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: 'Get started',
+        title: 'Javascript',
         collapsable: false,
         children: [
           '/javascript/001-get-started.md',
           '/javascript/002-globby.md',
           '/javascript/003-multimatch.md'
         ]
+      },
+      {
+        title: 'Ruby',
+        collapsable: false,
+        children: ['/ruby/001-dir.md']
       }
     ]
   }
