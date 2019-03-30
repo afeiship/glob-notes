@@ -1,4 +1,5 @@
 # common
+> Glob common usage snippets.
 
 ## exclude node_modules
 
