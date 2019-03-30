@@ -20,7 +20,8 @@ module.exports = {
         children: [
           '/javascript/001-get-started.md',
           '/javascript/002-globby.md',
-          '/javascript/003-multimatch.md'
+          '/javascript/003-multimatch.md',
+          '/javascript/004-common.md'
         ]
       },
       {
