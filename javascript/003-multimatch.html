@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>multimatch | glob-notes</title>
+    <meta name="description" content="About glob, i want to learn.">
+    <link rel="icon" href="https://raw.githubusercontent.com/isaacs/node-glob/master/oh-my-glob.gif">
+    
+    <link rel="preload" href="/glob-notes/assets/css/0.styles.43d8b2af.css" as="style"><link rel="preload" href="/glob-notes/assets/js/app.089580a0.js" as="script"><link rel="preload" href="/glob-notes/assets/js/2.0ef758b2.js" as="script"><link rel="preload" href="/glob-notes/assets/js/8.41d1d9bd.js" as="script"><link rel="prefetch" href="/glob-notes/assets/js/10.bd254f2e.js"><link rel="prefetch" href="/glob-notes/assets/js/11.5d2a6e9f.js"><link rel="prefetch" href="/glob-notes/assets/js/3.74653bfb.js"><link rel="prefetch" href="/glob-notes/assets/js/4.78dc510e.js"><link rel="prefetch" href="/glob-notes/assets/js/5.3170bd49.js"><link rel="prefetch" href="/glob-notes/assets/js/6.bd2c0b46.js"><link rel="prefetch" href="/glob-notes/assets/js/7.b81b794a.js"><link rel="prefetch" href="/glob-notes/assets/js/9.8bd38f0e.js">
+    <link rel="stylesheet" href="/glob-notes/assets/css/0.styles.43d8b2af.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/glob-notes/" class="home-link router-link-active"><!----> <span class="site-name">glob-notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Javascript</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/glob-notes/javascript/001-get-started.html" class="sidebar-link">get-started</a></li><li><a href="/glob-notes/javascript/002-globby.html" class="sidebar-link">globby</a></li><li><a href="/glob-notes/javascript/003-multimatch.html" class="active sidebar-link">multimatch</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/glob-notes/javascript/003-multimatch.html#install" class="sidebar-link">install</a></li><li class="sidebar-sub-header"><a href="/glob-notes/javascript/003-multimatch.html#usage" class="sidebar-link">usage</a></li><li class="sidebar-sub-header"><a href="/glob-notes/javascript/003-multimatch.html#resources" class="sidebar-link">resources</a></li></ul></li><li><a href="/glob-notes/javascript/004-common.html" class="sidebar-link">common</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Ruby</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/glob-notes/ruby/001-dir.html" class="sidebar-link">dir</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="content default"><h1 id="multimatch"><a href="#multimatch" aria-hidden="true" class="header-anchor">#</a> multimatch</h1> <blockquote><p>Extends minimatch.match() with support for multiple patterns.</p></blockquote> <h2 id="install"><a href="#install" aria-hidden="true" class="header-anchor">#</a> install</h2> <div class="language-shell extra-class"><pre class="language-text"><code>npm install -S multimatch
+</code></pre></div><h2 id="usage"><a href="#usage" aria-hidden="true" class="header-anchor">#</a> usage</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> multimatch <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'multimatch'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">multimatch</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'unicorn'</span><span class="token punctuation">,</span> <span class="token string">'cake'</span><span class="token punctuation">,</span> <span class="token string">'rainbows'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'*'</span><span class="token punctuation">,</span> <span class="token string">'!cake'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//=&gt; ['unicorn', 'rainbows']</span>
+</code></pre></div><h2 id="resources"><a href="#resources" aria-hidden="true" class="header-anchor">#</a> resources</h2> <ul><li>https://github.com/sindresorhus/multimatch</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/glob-notes/javascript/002-globby.html" class="prev">
+          globby
+        </a></span> <span class="next"><a href="/glob-notes/javascript/004-common.html">
+          common
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/glob-notes/assets/js/app.089580a0.js" defer></script><script src="/glob-notes/assets/js/2.0ef758b2.js" defer></script><script src="/glob-notes/assets/js/8.41d1d9bd.js" defer></script>
+  </body>
+</html>
