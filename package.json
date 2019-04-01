@@ -14,9 +14,13 @@
     "start": "node src/app.js"
   },
   "license": "MIT",
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
   "devDependencies": {
     "multimatch": "^3.0.0",
-    "vuepress": "^1.0.0-alpha.44"
+    "vuepress": "^0.14.10",
+    "webpack-dev-middleware": "^3.6.0"
   },
   "dependencies": {
     "glob": "^7.1.3",
